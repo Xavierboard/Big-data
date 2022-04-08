@@ -2,4 +2,4 @@
 
 se realizo induccion
 intalacion git
-!crash bandicoot(https://github.com/Xavierboard/Big-data/edit/main/descarga.jpg
+!crash bandicoot(https://github.com/Xavierboard/Big-data/edit/main/escritorio.jpg
