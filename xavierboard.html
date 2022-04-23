@@ -1,28 +1,105 @@
 <html>
 	<head>
 		<title>PAGINA DE BIG data </title>
+		<style>
+			body{
+				background-color: yellow;
+				}
+				table,tr,th,td{border:1px solid black
+				}
+				div{
+				border:8px solid pink;
+				margin:20px;
+				padding:14px;
+				}
+				/* editanto clases */	
+				
+				.title{
+				text-align:center;
+				}
+				.centrado{
+				text-align: center;
+				}
+				
+				.unidad{
+				background-color: yellow;
+				}
+				.titulounidad{
+				text-align:center
+				}
+				.Unidad-de-HTML{
+				font-size:14px;
+				text-align:center;
+				background-color:red;
+				color:white;
+				}
+				.imagen{
+				text-align:center;
+				}
+				#titulo-div{
+				color:green;
+				}
+				
+				#titulo-img{
+				color:fuchsia;
+				}
+				.link{
+				text-align:center
+				}
+		</style>
 	</head>
 	<body>
 		<div>
-			<h1>Big Data!</h1>
+			<!--- creacion de titulo con tag h1--->
+			<h1 class="title"> Big Data!</h1>
 			<div>
-				<h2>Unidad de HTML</h2>	
+				<h2 class="Unidad-de-HTML" id="titulo-div"> Unidad de HTML </h2>	
 				<div>
 					<p>como hacer un link de acceso</p>
-					<h3> link (a)</h3>
+					<h3 class="link" id="titulo-img"> link (a)</h3>
 					<div>
 						<h4>como hacer un link</h4>
 						<a href="https://www.facebook.com">buscas nuevos amiguitos? click aqui</a>
 						</br>
-						</br> by: </br>Xavierboard el bkn
 						<div>
-						<h3=imagen (img)</3>
-						<p="como hacer una imagen"</p>
-						<img src="MAXRESDEFAULT.JPG" width="500px" >
+							<h3 class="imagen"> imagen (img)</h3>
+							<p> "como hacer una imagen" </p>
+							<div>
+							<img src="MAXRESDEFAULT.JPG" width="500px" >
+							</div>
+							<div class="centrado">
+						<br>  by: Javier Ramos Fb </br>
+						</div>
 						</div>
 					</div>
 				</div>	
 			</div>
 		</div>
+		<div>
+					<!--- creacion de ua tabla --->
+			<table>
+				<tr>
+					<th>unidad </th>
+					<th>materia</th>
+					<th>link</th>
+				</tr>
+				<tr>
+					<td>unidad 1</td>
+					<td>conceptos basicos html</td>
+					<td><a href="#"> Haga click aqui </a> </td>
+				</tr>	
+				<tr>
+					<th>unidad </th>
+					<th>CSS</th>
+					<th>link</th>
+				</tr>
+				<tr>
+					<td>unidad 1</td>
+					<td><a href="https://google.com"> Haga click aqui <target="_blank" </a> </td>
+				</tr>	
+			</table>
+		</div>	
 	</body>	
 </html>
+
+		
